@@ -1,0 +1,35 @@
+.weather-box {
+  background: linear-gradient(145deg, #e0f7fa, #80deea);
+  opacity: 0.9;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.weather-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.temp {
+  font-size: 28px;
+  font-weight: bold;
+  color: #006064;
+  margin-top: 5px;
+}
+
+.weather-box h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+  color: #004d40;
+}
+
+.weather-box img {
+  width: 100px;
+  height: 100px;
+  /* to change the color of image icon */
+  /* filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%); */
+}

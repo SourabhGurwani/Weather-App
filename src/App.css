@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.weather-box-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.error-message, .error {
+  color: red;
+  font-size: 18px;
+  margin-top: 10px;
+  text-align: center;
+}
+body{
+  background-color: rgb(190, 239, 255) !important;
+  background-image: url('images/body_background.jpg');
+}
+
+
+

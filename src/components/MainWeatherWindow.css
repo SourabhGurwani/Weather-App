@@ -1,0 +1,118 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  padding: 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.inner-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 20px;
+  /* background: rgba(255, 255, 255, 0.7); */
+  border-radius: 10px;
+  /* background-color: lightblue; */
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  /* background-color: blue; */
+}
+
+.weather-icon {
+  width: 150px;
+  height: 150px;
+}
+
+.city-name {
+  font-size: 55px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: white;
+  margin-top: 5px;
+}
+
+.today {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+}
+.weather-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.temperature, .humidity, .wind, .description {
+  font-size: 28px;
+  /* color: #d32f2f; */
+  margin: 5px 0;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.temperature {
+  /* color: #d32f2f; */
+}
+
+.description {
+  font-style: italic;
+  /* color: red; */
+}
+
+.humidity, .wind {
+  /* font-weight: 500; */
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #004d40;
+  margin-bottom: 10px;
+}
+
+.sunny-bg {
+  background-image: url('../images/bg_files/bg_sun.jpg');
+  background-size: cover;
+}
+
+.rainy-bg {
+  background-image: url('../images/bg_files/bg_cloudy.jpg');
+  background-size: cover;
+}
+
+.cloudy-bg {
+  background-image: url('../images/bg_files/bg_cloud.jpg');
+  background-size: cover;
+}
+
+.default-bg {
+  background-image: url('../images/bg_files/bg_sun2.jpg'); 
+  background-size: cover;
+}
+
