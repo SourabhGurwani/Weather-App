@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Weather Web App
 A modern, responsive web app that displays weather information using the OpenWeatherMap API.
 
@@ -57,3 +58,6 @@ src/
 └── images/          # contains background images
 ```
 
+=======
+# Weather-App
+>>>>>>> 127f4c62d27f5e8926a658dbafb0e72c032e783a
